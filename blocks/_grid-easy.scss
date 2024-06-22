@@ -1,0 +1,401 @@
+.selling {
+    .selling-container {
+        .selling-container_text {
+            width: 537px;
+            height: 99px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            margin-bottom: 77px;
+
+            h2 {
+                font-size: 55px;
+            }
+        }
+
+        .flowers-container {
+            display: grid;
+            padding: 48px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 77px 10px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "follower-1 follower-2 follower-3"
+                "follower-4 follower-5 follower-6";
+        }
+
+        .follower-1 {
+            grid-area: follower-1;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            width: 300px;
+            height: 432px;
+
+            .follower_photo {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: -90px;
+                    left: 8px;
+                }
+            }
+
+            .follower_text {
+                position: absolute;
+                top: 220px;
+                left: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                .follower_text_num {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        border-radius: 12px;
+                        border: 2px solid #fff;
+                        padding: 10px;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .follower-2 {
+            grid-area: follower-2;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            width: 300px;
+            height: 432px;
+
+            .follower_photo {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: -90px;
+                    left: 8px;
+                }
+            }
+
+            .follower_text {
+                position: absolute;
+                top: 220px;
+                left: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                .follower_text_num {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        border-radius: 12px;
+                        border: 2px solid #fff;
+                        padding: 10px;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .follower-3 {
+            grid-area: follower-3;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            width: 300px;
+            height: 432px;
+
+            .follower_photo {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: -90px;
+                    left: 8px;
+                }
+            }
+
+            .follower_text {
+                position: absolute;
+                top: 220px;
+                left: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                .follower_text_num {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        border-radius: 12px;
+                        border: 2px solid #fff;
+                        padding: 10px;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .follower-4 {
+            grid-area: follower-4;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            width: 300px;
+            height: 432px;
+
+            .follower_photo {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: -90px;
+                    left: 8px;
+                }
+            }
+
+            .follower_text {
+                position: absolute;
+                top: 220px;
+                left: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                .follower_text_num {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        border-radius: 12px;
+                        border: 2px solid #fff;
+                        padding: 10px;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .follower-5 {
+            grid-area: follower-5;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            width: 300px;
+            height: 432px;
+
+            .follower_photo {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: -90px;
+                    left: 8px;
+                }
+            }
+
+            .follower_text {
+                position: absolute;
+                top: 220px;
+                left: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                .follower_text_num {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        border-radius: 12px;
+                        border: 2px solid #fff;
+                        padding: 10px;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .follower-6 {
+            grid-area: follower-6;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            width: 300px;
+            height: 432px;
+
+            .follower_photo {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: -90px;
+                    left: 8px;
+                }
+            }
+
+            .follower_text {
+                position: absolute;
+                top: 220px;
+                left: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+
+                .follower_text_num {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    button {
+                        border-radius: 12px;
+                        border: 2px solid #fff;
+                        padding: 10px;
+                        margin-right: 24px;
+                        cursor: pointer;
+
+                        img {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

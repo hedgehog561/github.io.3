@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Inter";
+    color: #fff;
+}
+
+body {
+    background-color: #182015;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: transparent;
+}

@@ -1,0 +1,796 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: #fff;
+}
+
+body {
+  background-color: #182015;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  background-color: transparent;
+}
+
+.navigator h6 {
+  font-size: 28px;
+  font-weight: 800;
+}
+.navigator .navigator-container {
+  margin: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigator .navigator-container .navigator-container_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.navigator .navigator-container .navigator-container_type {
+  font-size: 24px;
+  font-weight: 500;
+}
+.navigator .navigator-container .navigator-container_type ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 59px;
+}
+.navigator .navigator-container .navigator-container_type ul li {
+  cursor: pointer;
+}
+.navigator .navigator-container .navigator-container_buttons button {
+  cursor: pointer;
+}
+.navigator .navigator-container .navigator-container_buttons ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 59px;
+}
+
+.flower {
+  background-image: url(../photo/фон.png);
+  font-size: 100% 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.flower .flower-container_contact {
+  margin: 170px 57px;
+}
+.flower .flower-container_contact .flower-container {
+  display: grid;
+  grid-template-columns: 341px 341px 400px;
+  grid-template-rows: 446px 300px 99px 400px 400px;
+  gap: 40px 25px;
+  grid-auto-flow: row;
+  grid-template-areas: "flower-1 flower-1 flower-2" "flower-3 flower-4 flower-2" "flower-5 flower-5 flower-5" "flower-6 flower-6 flower-6" "flower-7 flower-7 flower-7";
+}
+.flower .flower-container_contact .flower-1 {
+  grid-area: flower-1;
+  width: 682px;
+  height: 300px;
+}
+.flower .flower-container_contact .flower-1 h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+.flower .flower-container_contact .flower-1 p {
+  font-size: 15px;
+  font-weight: 500;
+}
+.flower .flower-container_contact .flower-1 .flower-1_buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.flower .flower-container_contact .flower-1 .flower-1_buttons h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.flower .flower-container_contact .flower-1 .flower-1_buttons .flower-1_button {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  border: 2px solid #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.flower .flower-container_contact .flower-1 .flower-1_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+}
+.flower .flower-container_contact .flower-1 .flower-1_container button {
+  cursor: pointer;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 15px 59px;
+  font-size: 28px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.flower .flower-container_contact .flower-2 {
+  grid-area: flower-2;
+  position: relative;
+  width: 400px;
+  height: 525px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.flower .flower-container_contact .flower-2 img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: -90px;
+  left: 25px;
+}
+.flower .flower-container_contact .flower-2 .flower-2_text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 24px 48px 0 48px;
+  top: 260px;
+}
+.flower .flower-container_contact .flower-2 .flower-2_text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.flower .flower-container_contact .flower-2 .flower-2_text h4 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.flower .flower-container_contact .flower-2 .flower-2_text button {
+  font-size: 24px;
+  font-weight: 400;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.flower .flower-container_contact .flower-3 {
+  grid-area: flower-3;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 45px;
+  height: 237px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 10px 0 40px;
+}
+.flower .flower-container_contact .flower-3 p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+}
+.flower .flower-container_contact .flower-4 {
+  grid-area: flower-4;
+}
+.flower .flower-container_contact .flower-5 {
+  grid-area: flower-5;
+  width: 537px;
+  height: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: 400;
+}
+.flower .flower-container_contact .flower-6 {
+  grid-area: flower-6;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 151px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 218px;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  left: 600px;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text .flower-6_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text .flower-6_buttons .button-flower {
+  padding: 15px 50px;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text .flower-6_buttons button {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 15px 15px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.flower .flower-container_contact .flower-6 .flower-6_text .flower-6_buttons button img {
+  width: 25px;
+  height: 25px;
+}
+.flower .flower-container_contact .flower-6 .flower-6_flower {
+  position: relative;
+}
+.flower .flower-container_contact .flower-6 .flower-6_flower img {
+  top: -290px;
+  left: 80px;
+  position: absolute;
+  width: 400px;
+  height: 488px;
+}
+.flower .flower-container_contact .flower-7 {
+  grid-area: flower-7;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 151px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flower .flower-container_contact .flower-7 .flower-7_flower {
+  position: relative;
+}
+.flower .flower-container_contact .flower-7 .flower-7_flower img {
+  top: -280px;
+  left: -450px;
+  position: absolute;
+  width: 400px;
+  height: 488px;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 600px;
+  padding-left: 122px;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text h4 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text .flower-7_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text .flower-7_buttons .button-flower {
+  padding: 15px 50px;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text .flower-7_buttons button {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 15px 15px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.flower .flower-container_contact .flower-7 .flower-7_text .flower-7_buttons button img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer {
+  background-color: #222C1D;
+}
+.footer .footer-container {
+  padding: 90px 62px;
+  display: flex;
+  flex-direction: column;
+  gap: 119px;
+}
+.footer .footer-container .footer-container_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .footer-container .footer-container_text .footer-container_text_list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_list ul li {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer .footer-container .footer-container_text h5 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 46px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_email .footer-container_text_email_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 390px;
+  height: 74px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_email .footer-container_text_email_button input[type=email] {
+  height: 68px;
+  width: 236px;
+  background-color: #222C1D;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  padding-left: 20px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_email .footer-container_text_email_button input[type=email]::-moz-placeholder {
+  color: #fff;
+}
+.footer .footer-container .footer-container_text .footer-container_text_email .footer-container_text_email_button input[type=email]::placeholder {
+  color: #fff;
+}
+.footer .footer-container .footer-container_text .footer-container_text_email .footer-container_text_email_button button {
+  background-color: #fff;
+  color: #222C1D;
+  cursor: pointer;
+  height: 68px;
+  border-radius: 8px;
+  width: 150px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 1px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_email .footer-container_text_email_button button:hover {
+  color: #fff;
+  background-color: #222C1D;
+  border: 2px solid #fff;
+}
+.footer .footer-container .footer-container_text .footer-container_text_fact {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_fact .footer-container_text_fact_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 14px;
+}
+.footer .footer-container .footer-container_text .footer-container_text_fact .footer-container_text_fact_logo h6 {
+  font-size: 28px;
+  font-weight: 800;
+}
+.footer .footer-container .footer-container_text .footer-container_text_fact p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.footer .footer-container .footer-container_foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer-container .footer-container_foot p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.footer .footer-container .footer-container_foot ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 59px;
+}
+.footer .footer-container .footer-container_foot ul li {
+  cursor: pointer;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.selling .selling-container .selling-container_text {
+  width: 537px;
+  height: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 77px;
+}
+.selling .selling-container .selling-container_text h2 {
+  font-size: 55px;
+}
+.selling .selling-container .flowers-container {
+  display: grid;
+  padding: 48px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 77px 10px;
+  grid-auto-flow: row;
+  grid-template-areas: "follower-1 follower-2 follower-3" "follower-4 follower-5 follower-6";
+}
+.selling .selling-container .follower-1 {
+  grid-area: follower-1;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  width: 300px;
+  height: 432px;
+}
+.selling .selling-container .follower-1 .follower_photo {
+  position: relative;
+}
+.selling .selling-container .follower-1 .follower_photo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  left: 8px;
+}
+.selling .selling-container .follower-1 .follower_text {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selling .selling-container .follower-1 .follower_text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selling .selling-container .follower-1 .follower_text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.selling .selling-container .follower-1 .follower_text .follower_text_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling .selling-container .follower-1 .follower_text .follower_text_num button {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.selling .selling-container .follower-1 .follower_text .follower_text_num button img {
+  width: 20px;
+  height: 20px;
+}
+.selling .selling-container .follower-2 {
+  grid-area: follower-2;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  width: 300px;
+  height: 432px;
+}
+.selling .selling-container .follower-2 .follower_photo {
+  position: relative;
+}
+.selling .selling-container .follower-2 .follower_photo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  left: 8px;
+}
+.selling .selling-container .follower-2 .follower_text {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selling .selling-container .follower-2 .follower_text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selling .selling-container .follower-2 .follower_text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.selling .selling-container .follower-2 .follower_text .follower_text_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling .selling-container .follower-2 .follower_text .follower_text_num button {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.selling .selling-container .follower-2 .follower_text .follower_text_num button img {
+  width: 20px;
+  height: 20px;
+}
+.selling .selling-container .follower-3 {
+  grid-area: follower-3;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  width: 300px;
+  height: 432px;
+}
+.selling .selling-container .follower-3 .follower_photo {
+  position: relative;
+}
+.selling .selling-container .follower-3 .follower_photo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  left: 8px;
+}
+.selling .selling-container .follower-3 .follower_text {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selling .selling-container .follower-3 .follower_text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selling .selling-container .follower-3 .follower_text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.selling .selling-container .follower-3 .follower_text .follower_text_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling .selling-container .follower-3 .follower_text .follower_text_num button {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.selling .selling-container .follower-3 .follower_text .follower_text_num button img {
+  width: 20px;
+  height: 20px;
+}
+.selling .selling-container .follower-4 {
+  grid-area: follower-4;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  width: 300px;
+  height: 432px;
+}
+.selling .selling-container .follower-4 .follower_photo {
+  position: relative;
+}
+.selling .selling-container .follower-4 .follower_photo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  left: 8px;
+}
+.selling .selling-container .follower-4 .follower_text {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selling .selling-container .follower-4 .follower_text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selling .selling-container .follower-4 .follower_text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.selling .selling-container .follower-4 .follower_text .follower_text_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling .selling-container .follower-4 .follower_text .follower_text_num button {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.selling .selling-container .follower-4 .follower_text .follower_text_num button img {
+  width: 20px;
+  height: 20px;
+}
+.selling .selling-container .follower-5 {
+  grid-area: follower-5;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  width: 300px;
+  height: 432px;
+}
+.selling .selling-container .follower-5 .follower_photo {
+  position: relative;
+}
+.selling .selling-container .follower-5 .follower_photo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  left: 8px;
+}
+.selling .selling-container .follower-5 .follower_text {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selling .selling-container .follower-5 .follower_text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selling .selling-container .follower-5 .follower_text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.selling .selling-container .follower-5 .follower_text .follower_text_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling .selling-container .follower-5 .follower_text .follower_text_num button {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.selling .selling-container .follower-5 .follower_text .follower_text_num button img {
+  width: 20px;
+  height: 20px;
+}
+.selling .selling-container .follower-6 {
+  grid-area: follower-6;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border: 2px;
+  border-color: linear-gradient(-38deg, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0) 52%, rgba(255, 255, 255, 0.2) 100%);
+  border-radius: 77px;
+  width: 300px;
+  height: 432px;
+}
+.selling .selling-container .follower-6 .follower_photo {
+  position: relative;
+}
+.selling .selling-container .follower-6 .follower_photo img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -90px;
+  left: 8px;
+}
+.selling .selling-container .follower-6 .follower_text {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.selling .selling-container .follower-6 .follower_text h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.selling .selling-container .follower-6 .follower_text p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.selling .selling-container .follower-6 .follower_text .follower_text_num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.selling .selling-container .follower-6 .follower_text .follower_text_num button {
+  border-radius: 12px;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.selling .selling-container .follower-6 .follower_text .follower_text_num button img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=planto.css.map */

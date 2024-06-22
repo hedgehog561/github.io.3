@@ -1,0 +1,49 @@
+.navigator {
+    h6 {
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .navigator-container {
+        margin: 57px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .navigator-container_logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .navigator-container_type {
+            font-size: 24px;
+            font-weight: 500;
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 59px;
+
+                li {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .navigator-container_buttons {
+            button {
+                cursor: pointer;
+            }
+
+            ul {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 59px;
+            }
+        }
+    }
+}

@@ -1,0 +1,314 @@
+.flower {
+    background-image: url(../photo/фон.png);
+    font-size: 100% 100%;
+    object-fit: cover;
+
+    .flower-container_contact {
+        margin: 170px 57px;
+
+        .flower-container {
+            display: grid;
+            grid-template-columns: 341px 341px 400px;
+            grid-template-rows: 446px 300px 99px 400px 400px;
+            gap: 40px 25px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "flower-1 flower-1 flower-2"
+                "flower-3 flower-4 flower-2"
+                "flower-5 flower-5 flower-5"
+                "flower-6 flower-6 flower-6"
+                "flower-7 flower-7 flower-7";
+        }
+
+        .flower-1 {
+            grid-area: flower-1;
+            width: 682px;
+            height: 300px;
+
+            h1 {
+                font-size: 80px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 15px;
+                font-weight: 500;
+            }
+
+            .flower-1_buttons {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 16px;
+
+                h2 {
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+
+                .flower-1_button {
+                    width: 64px;
+                    height: 64px;
+                    border-radius: 32px;
+                    border: 2px solid #fff;
+                    padding: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+            }
+
+            .flower-1_container {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 32px;
+
+                button {
+                    cursor: pointer;
+                    border: 2px solid #fff;
+                    border-radius: 12px;
+                    padding: 15px 59px;
+                    font-size: 28px;
+                    font-weight: 400;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .flower-2 {
+            grid-area: flower-2;
+            position: relative;
+
+            img {
+                position: absolute;
+                width: 350px;
+                height: 350px;
+                top: -90px;
+                left: 25px;
+            }
+
+            width: 400px;
+            height: 525px;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 77px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            
+            
+            .flower-2_text {
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap: 20px;
+                padding: 24px 48px 0 48px;
+                top: 260px;
+
+                p {
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+
+                h4 {
+                    font-size: 28px;
+                    font-weight: 400;
+                }
+
+                button {
+                    font-size: 24px;
+                    font-weight: 400;
+                    border: 2px solid #fff;
+                    border-radius: 12px;
+                    padding: 15px 25px;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        .flower-3 {
+            grid-area: flower-3;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 45px;
+            height: 237px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 0 10px 0 40px;
+
+            p {
+                font-size: 17px;
+                font-weight: 400;
+                text-align: left;
+            }
+        }
+
+        .flower-4 {
+            grid-area: flower-4;
+        }
+
+        .flower-5 {
+            grid-area: flower-5;
+            width: 537px;
+            height: 99px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            font-size: 35px;
+            font-weight: 400;
+        }
+
+        .flower-6 {
+            grid-area: flower-6;
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 151px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 218px;
+
+            .flower-6_text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+                position: absolute;
+                left: 600px;
+                h4 {
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                .flower-6_buttons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 32px;
+
+                    .button-flower {
+                        padding: 15px 50px;
+                    }
+                    button {
+                        border: 2px solid #fff;
+                        border-radius: 12px;
+                        padding: 15px 15px;
+                        font-size: 28px;
+                        font-weight: 500;
+                        cursor: pointer;
+    
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+
+            .flower-6_flower {
+                position: relative;
+                
+                img {
+                    top: -290px;
+                    left: 80px;
+                    position: absolute;
+                    width: 400px;
+                    height: 488px;
+                }
+            }
+        }
+
+        .flower-7 {
+            grid-area: flower-7;
+
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0px 9px 18.4px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(12.5px);
+            border: 2px;
+            border-color: linear-gradient(-38deg, rgba(255,255,255,0.2) 0%, rgba(0,0,0,0) 52%, rgba(255,255,255,0.2) 100%);
+            border-radius: 151px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .flower-7_flower {
+                position: relative;
+                img {
+                    top: -280px;
+                    left: -450px;
+                    position: absolute;
+                    width: 400px;
+                    height: 488px;
+                }
+            }
+
+            .flower-7_text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 24px;
+                width: 600px;
+                padding-left: 122px;
+                h4 {
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                .flower-7_buttons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 32px;
+
+                    .button-flower {
+                        padding: 15px 50px;
+                    }
+                    button {
+                        border: 2px solid #fff;
+                        border-radius: 12px;
+                        padding: 15px 15px;
+                        font-size: 28px;
+                        font-weight: 500;
+                        cursor: pointer;
+    
+                        img {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
